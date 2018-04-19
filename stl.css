@@ -1,0 +1,48 @@
+/*
+	Comment
+*/
+
+html { 
+  background: url("back2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+	
+/*
+body {
+	background-color: gray;
+	background-image:url("g");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+	
+}*/
+
+#wrapper {
+	width: 880px;
+	margin: 0 auto;
+	background-color:white;
+}
+header{
+	background-color:black;
+}
+article{
+		padding: 40px;
+}
+input {
+/*	padding: 20px 10px; line-height: 28px;*/
+	font-size: 40px;
+	width: 800px;
+}
+#pic {
+	z-index:-1;
+	 position: absolute;
+}
+#canvas{
+	z-index: 0;	
+	position: relative;
+}
+h1{
+	text-align:center;
+}
